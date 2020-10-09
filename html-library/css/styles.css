@@ -56,12 +56,13 @@ main {
 main h1 {
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .today-book {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .today-book img {
@@ -141,4 +142,9 @@ main h1 {
     color: #FDCC32;
     font-size: 9px;
     margin-bottom: 25px;
+}
+
+.authors {
+    display: flex;
+
 }
