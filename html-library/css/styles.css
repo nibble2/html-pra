@@ -9,10 +9,16 @@ body {
 header {
     background-color: rgb(250, 206, 72);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     padding: 40px 20px;
-    font-size: 18px;
+}
+
+header>* {
+    width: 33%
+}
+
+header i:last-child {
+    text-align: right;
 }
 
 header h1 {
