@@ -43,5 +43,12 @@ header h1 {
 }
 
 .search input::placeholder {
-    opacity: 0.7;
+    opacity: 0.8;
+}
+
+.search i {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    opacity: 0.2;
 }
