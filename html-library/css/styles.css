@@ -149,17 +149,26 @@ main>div {
 
 .top-books {
     display: flex;
+    overflow-x: scroll;
 }
 
 .top-book {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-right: 20px;
 }
 
 .top-book__cover {
     width: 70px;
     height: 100px;
+    border-radius: 3px;
+
+}
+
+.top-book__rating {
+    color: var(--yellow);
+    font-size: 8px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
 }
 
 .top-book__rating i {
