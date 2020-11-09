@@ -134,3 +134,12 @@ main>h2 {
     align-items: center;
     border-radius: 50px;
 }
+
+.featured-book__buy {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
