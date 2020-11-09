@@ -76,6 +76,10 @@ main>h2 {
     margin-right: 20px;
 }
 
+.featured-book__data {
+    width: 100%;
+}
+
 .featured-book__title {
     font-size: 18px;
     font-weight: 600;
@@ -108,10 +112,9 @@ main>h2 {
 }
 
 .featured-book__tag {
-    width: 90px;
-    height: 30px;
     background-color: #F7F7F7;
     border-radius: 10px;
-    text-align: center;
     font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
 }
