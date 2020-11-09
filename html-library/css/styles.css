@@ -118,3 +118,19 @@ main>h2 {
     font-weight: 500;
     padding: 10px 20px;
 }
+
+.featured-book__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-book__bookmark {
+    background-color: var(--yellow);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
